@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-image: url(background.jpg);
+  height: auto;
+  min-height: 200px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(242, 242, 242);
+}
+.bannercentrale {
+  display: block;
+  width: 50%, 50%;
+  margin: 10% 3%;
+  padding: 90px 6% 100px 6%;
+  background-color: rgba(0, 0, 0, 0.41);
+  border-radius: 10px;
+}
+
+/* taking booleaners etc. */
+.bannercentrale h1 {
+  text-align: center;
+  color: rgb(38, 237, 38);
+  margin: 5px;
+}
+/* -------------------------- */
+
+/* Centratura Logo Lim */
+#logolim {
+  display: block;
+  width: 300px;
+  margin: auto;
+}
+/* --------------- */
+
+/* navbar con bottoni */
+.navbar {
+  background-color: rgb(38, 237, 38);
+  padding: 10px 200px 10px 200px;
+  text-align: center;
+  border-radius: 5px;
+}
+.navbar [type="button"] {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+
+  text-align: center;
+  width: cover;
+  margin: auto;
+}
+/* ------------------------- */
+
+/* titolo accanto al checkbox */
+Section > div > h2 {
+  display: inline;
+}
+/* ---------------------------- */
+
+/* rettangoli colorati*/
+.rectangle {
+  border-radius: 5px;
+  height: 25px;
+}
+.rectangle.yellow {
+  width: 200px;
+  background: rgb(239, 200, 58);
+}
+
+.rectangle.green {
+  width: 600px;
+  background: rgb(38, 237, 38);
+}
+
+.rectangle.red {
+  width: 80px;
+  background: rgb(209, 50, 50);
+}
+/* ------------------------------------- */
+/* positioning blocchi Monopattini */
+*.choose {
+  display: block;
+  margin: 20px 0px;
+}
+/* freccina */
+* .choose :nth-child(3)::before {
+  content: "\2194";
+}
+/* margine top stato carica */
+* .choose :nth-child(4) {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+/* ------------------------------------ */
+
+/* footer */
+footer {
+  width: 80%;
+  margin: auto;
+  padding: 6px;
+  text-align: center;
+  font-weight: 60;
+  border-radius: 15px;
+  color: rgb(31, 73, 18);
+  background-color: rgba(61, 220, 100, 0.41);
+}
+
+footer :nth-child(2) {
+  margin-top: 3px;
+}
+/* ------------------------------------- */
